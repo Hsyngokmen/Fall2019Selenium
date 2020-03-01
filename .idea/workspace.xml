@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="041e4c74-5a10-41da-8f6c-084d48a057c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fall2019Selenium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day1/MyFirstSeleniumScpript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/automation/tests/day1/MyFirstSeleniumScpript.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/BasicNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YV5tclOx6KNAcXLdSxJJTSmerC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +43,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -126,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="177" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583022916390" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1583016589401">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1583086731339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583016589401" />
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583086731339" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583016561991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
