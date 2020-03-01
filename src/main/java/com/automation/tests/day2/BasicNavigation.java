@@ -18,6 +18,9 @@ public class BasicNavigation {
         driver.get("http://google.com");
         Thread.sleep(3000);//wait 3 seconds
 
+        driver.manage().window().maximize(); // to maximize browser
+        Thread.sleep(3000);//wait 3 seconds
+
         String title=driver.getTitle();// returns title of the page <title> some title<?title>
 
         String expectedTitle="Google";
@@ -28,7 +31,30 @@ public class BasicNavigation {
         }else{
             System.out.println("Title Test Failed");
         }
+        Thread.sleep(3000);//wait 3 seconds
+
+        if(driver.getTitle().toLowerCase().contains("amazon")){
+            System.out.println("Test passed");
+        }else{
+            System.out.println("test fails");
+        }
+        Thread.sleep(3000);//wait 3 seconds
+
+        driver.navigate().to("http://amazon.com");
         //browser cannot close itself
+        verifEquals(driver.getTitle(),"Google");
+        //move forward in the browser
+        driver.navigate().forward();
+
+        System.out.println("driver.getTitle() = " + driver.getTitle());
+
         driver.close();
+    }
+    public static void verifEquals(String arg1,String arg2){
+        if (arg1.equals(arg2)){
+            System.out.println("test passed");
+        }else{
+            System.out.println("test failed");
+        }
     }
 }
