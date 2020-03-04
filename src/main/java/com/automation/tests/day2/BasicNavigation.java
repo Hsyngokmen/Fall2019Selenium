@@ -45,8 +45,16 @@ public class BasicNavigation {
         verifEquals(driver.getTitle(),"Google");
         //move forward in the browser
         driver.navigate().forward();
+        Thread.sleep(3000);//wait 3 seconds
+
 
         System.out.println("driver.getTitle() = " + driver.getTitle());
+        Thread.sleep(3000);//wait 3 seconds
+
+        driver.navigate().back();
+        Thread.sleep(3000);//wait 3 seconds
+
+        driver.navigate().refresh();
 
         driver.close();
     }
