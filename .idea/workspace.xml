@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="041e4c74-5a10-41da-8f6c-084d48a057c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/GoogleSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/JumpToNewWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/QuitVsClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day3/FindElementsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utilities/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day3/FindElementById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/warmUp/Ebay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/BasicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/BasicNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/JumpToNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day2/JumpToNewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/tests/day3/FindElementsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/tests/day3/FindElementsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/utilities/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/utilities/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +44,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,13 +55,13 @@
       <recent name="C:\Users\Hugo\IdeaProjects\Fall2019Selenium\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoogleSearchTest">
+  <component name="RunManager" selected="Application.Ebay">
     <configuration name="BasicNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.day2.BasicNavigation" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day2.JumpToTheNewWindow" />
+          <option name="PATTERN" value="com.automation.tests.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +69,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day2.GoogleSearchTest" />
+    <configuration name="Ebay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.warmUp.Ebay" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day2.*" />
+          <option name="PATTERN" value="com.automation.tests.warmUp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementById" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementById" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementsPractice" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,39 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirstSeleniumScpript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day1.MyFirstSeleniumScpript" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuitVsClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day2.QuitVsClose" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day2.JumpToTheNewWindow" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoogleSearchTest" />
+        <item itemvalue="Application.Ebay" />
         <item itemvalue="Application.JumpToNewWindow" />
-        <item itemvalue="Application.QuitVsClose" />
         <item itemvalue="Application.BasicNavigation" />
-        <item itemvalue="Application.MyFirstSeleniumScpript" />
+        <item itemvalue="Application.FindElementById" />
+        <item itemvalue="Application.FindElementsPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583094817904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created basic nagivation class">
+      <created>1583282484654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583282484654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,42 +190,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="created basic nagivation class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="625" y="184" key="#Project_Structure" timestamp="1583292802332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="184" key="#Project_Structure/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583292802332" />
     <state x="586" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583281907282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583281907282" />
-    <state x="609" y="114" key="CommitChangelistDialog2" timestamp="1583094809875">
+    <state x="609" y="114" key="CommitChangelistDialog2" timestamp="1583282467221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="609" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583094809875" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583146665365">
+    <state x="609" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583282467221" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1583296119885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583146665365" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583146665365">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583296119885" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1583368605096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583146665365" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583146665365">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583368605096" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1583368605096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583146665365" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583146665365">
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583368605096" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1583368605095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583146665365" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583368605095" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1583368605096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583368605096" />
     <state x="490" y="177" key="Maven.ArtifactSearchDialog" timestamp="1583022916390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="177" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583022916390" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1583087776780">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1583286284469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583087776780" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583094820422">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583286284469" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583282492608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583094820422" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.60.1366.728@0.0.1920.1040" timestamp="1583282492608" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583016561991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

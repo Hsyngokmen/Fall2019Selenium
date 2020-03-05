@@ -20,7 +20,7 @@ public class JumpToNewWindow {
         //based on window handle, we can switch in between windows
         String windowHandle = driver.getWindowHandle();
 
-        System.out.println(windowHandle);
+        System.out.println("\"windowHandle\" = " + "windowHandle");
         //getWindowHandles() - returns id's of all currently opened windows
         //Set - doesn't allow duplicates
 
